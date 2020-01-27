@@ -1,0 +1,894 @@
+<!--Work HTML-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Work Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400&display=swap" rel="stylesheet" />
+    <script src="JS/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript"
+            src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+    </script>
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" />
+    <script src="JS/jquery-ui.js"></script>
+    <link href="CSS/jquery-ui.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="JS/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+</head>
+<body>
+    <div class="container setimage image-fluid">
+        <!-- Header -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="navbar-header">
+                <img class="navbar-brand " src="Images/logo_1.png" />
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">HOW IT WORKS </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#">CONTACT US</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+                </form>
+            </div>
+        </nav>
+        <hr />
+
+        <div class="row">
+            <div class="col-md-7 offset-1 col-sm-7">
+                <div id="workheader">
+                    Thinking Volunteer Overseas!
+                </div>
+                <div class="workparagraph">
+                    Volunteers,interns and ESL teachers are solving problems and making a real difference abroad.Finding
+                    the perfect program you can trust shouldn't be a problem.
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-5">
+                <button id="button" data-toggle="modal" data-target="#exampleModalCenter">
+                    <div class="video-box">
+                        <i class="fa fa-play-circle-o" style="font-size:33px;color:white"></i>
+                        Watch the tour
+                    </div>
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Video</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                   
+
+                        <video controls="controls" style="width:470px;height:400px;">
+                            <source src="Images/video.mp4" type="video/mp4" />
+                        </video>
+                   
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-12">
+                <div>
+                    <p class="volunteerwork">How Volunteer Overseas Works</p>
+                </div>
+            </div>
+        </div>
+        <!--First row-->
+        <div class="row">
+            <div class="col-md-1 offset-1 Inline">
+
+                <h3 class="number">1 </h3>
+
+                <span class="projectphone">Find Your Perfect Project</span>
+
+
+
+            </div>
+            <div class="col-md-7  roworder">
+                <div class="row ">
+                    <div class="col-md-12 ">
+                        <p class="project">Find Your Perfect Project</p>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="thumb1paragraph" style="padding-bottom:20px;">Research and compare best project abroad based on what matters to you:</div>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <div class="thumb1row">Location</div>
+                    </div>
+                    <div class="col-md-10 col-8">
+                        <div class="thumb1space">Where's your dream destination?</div>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <div class="thumb1row">Activity</div>
+                    </div>
+                    <div class="col-md-10 col-8">
+                        <div class="thumb1space">What do you see yourself doing?</div>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <div class="thumb1row">Duration</div>
+                    </div>
+                    <div class="col-md-10 col-8">
+                        <div class="thumb1space">How much time do you have?</div>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <div class="thumb1row">Start Dates</div>
+                    </div>
+                    <div class="col-md-10 col-8">
+                        <div class="thumb1space">Fixed and flexible start dates(varies by program)</div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-3">
+
+                <img class="thumb1" src="Images/works-thumb01.png" style="float:right">
+                <img class="thumbphone" src="Images/works-thumb01-ipad.png" style="float:right" />
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <!--Second row-->
+        <div class="row">
+            <div class="col-md-1 offset-1">
+                <h3 class="number" style="float:left">2</h3>
+                <span class="projectphone">Apply Now</span>
+            </div>
+            <div class="col-md-7 roworder">
+
+
+                <div class="row ">
+                    <div class="col-md-12">
+                        <h4 class="project">Apply Now</h4>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="thumb1paragraph" style="padding-bottom:20px;">Follow our easy and secure application process:</div>
+                    </div>
+                    <div class="col-md-1 col-2">
+                        <div class="thumb2row">1</div>
+                    </div>
+                    <div class="col-md-11 col-10">
+                        <div class="thumb2space">Fill out your trip preferences</div>
+                    </div>
+                    <div class="col-md-1  col-2">
+                        <div class="thumb2row">2</div>
+                    </div>
+                    <div class="col-md-11 col-10">
+                        <div class="thumb2space">Tell your program why you are a good fit</div>
+                    </div>
+                    <div class="col-md-1 col-2">
+                        <div class="thumb2row">3 </div>
+                    </div>
+                    <div class="col-md-11 col-10">
+                        <div class="thumb2space">Reserve your spot with a small deposit*</div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="imagetwo">
+                            <p class="thumb2row2">
+                                *This deposit is a generally a small portion of the total project fee.Your deposit secures
+                                your spot with the program and shows that you are aserious applicant.This deposit
+                                is fully refundable if you are not accepted by the program.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img class="thumb2" src="Images/works-thumb02.png" style="float:right">
+                <img class="thumb2phone" src="Images/works-thumb02.png" style="float:right">
+
+            </div>
+        </div>
+        <br /><br />
+        <!--Third row-->
+        <div class="row">
+            <div class="col-md-1 offset-1">
+                <h3 class="number" style="float:left">3</h3>
+                <span class="projectphone">Wait to Hear Great News</span>
+            </div>
+            <div class="col-md-7 roworder">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 class="project">Wait to Hear Great News</h4>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="thumb1paragraph">After you submit your application,You will hear from your program within 3-7 business days</div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="thumb1paragraph2" style="padding-bottom:20px;">Applying through volunteer overseas automatically qualifies you to:</div>
+                    </div>
+                    <div class="col-md-1 col-2">
+                        <div class="thumb3row">$  </div>
+                    </div>
+                    <div class="col-md-11 col-10">
+                        <div class="thumb3space">Fill out your trip preferences</div>
+                    </div>
+                    <div class="col-md-1 col-2">
+                        <div class="thumb3row">$ </div>
+                    </div>
+                    <div class="col-md-11 col-10">
+                        <div class="thumb3space">Tell your program why you are a good fit</div>
+                    </div>
+                    <div class=" col-md-12 ">
+                        <div class="thumb3row2">
+                            <span><b>Talk about great news! </b></span>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img class="thumb3" src="Images/works-thumb03.png" style="float:right">
+                <img class="thumb3phone" src="Images/works-thumb03-ipad.png" style="float:right">
+            </div>
+        </div>
+        <br /><br />
+        <!--Fourth row-->
+        <div class="row">
+            <div class="col-md-1 offset-1">
+                <h3 class="number" style="float:left">4</h3>
+                <span class="projectphone">Finalize your trip</span>
+            </div>
+            <div class="col-md-7 roworder">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 class="project">Finalize your trip</h4>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="thumb1paragraph" style="padding-bottom:20px;">After you've been accepted,your program will help you with the not so little details:</div>
+                    </div>
+                    <div class="col-md-1 col-2">
+                        <div>
+                            <img class="thumb4img" src="Images/check.png">
+                        </div>
+
+                    </div>
+                    <div class="col-md-11 col-10">
+                        <div class="thumb3space">The remainder of your program fee</div>
+                    </div>
+                    <div class="col-md-1 col-2">
+                        <div>
+                            <img class="thumb4img" src="Images/check.png">
+                        </div>
+                    </div>
+                    <div class="col-md-11 col-10">
+                        <div class="thumb3space">Final travel arrangements</div>
+                    </div>
+                    <div class="col-md-1 col-2">
+                        <div>
+                            <img class="thumb4img" src="Images/check.png">
+                        </div>
+                    </div>
+                    <div class="col-md-11 col-10">
+                        <div class="thumb3space">Your itinerary and work schedule</div>
+                    </div>
+                    <div class="col-md-1 col-2">
+                        <div>
+                            <img class="thumb4img" src="Images/check.png">
+                        </div>
+                    </div>
+                    <div class="col-md-11 col-10">
+                        <div class="thumb3space">Your medical,dietary or other personal needs</div>
+                    </div>
+                    <div class="col-md-1 col-2">
+                        <div>
+                            <img class="thumb4img" src="Images/check.png">
+                        </div>
+                    </div>
+                    <div class="col-md-11 col-10">
+                        <div class="thumb3space">And to...</div>
+                    </div>
+                    <div class=" col-md-12 ">
+                        <div class="thumb3row2">
+                            <span><b>MAKE DIFFERENCE VOLUNTEER OVERSEAS!</b></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img class="thumb4" src="Images/works-thumb04.png" style="float:right">
+            </div>
+        </div>
+        <br />
+        <br />
+        <!--Begin Your Journey-->
+        <div class="row d-flex h-100">
+            <div class="align-self-center mx-auto">
+                <a href="#" class="journey">Begin Your Journey</a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Start-->
+    <div class="footer">
+        <div class="row">
+            <div class="col-xs-3 ">
+                <img src="Images/logo_1.png" class="footerimg" />
+            </div>
+            <div class="col-xs-9">
+                <button class="faq">FAQ</button>
+                <button class="contactus">CONTACT US</button>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End-->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Work CSS-->
+body {
+    font-size: 14px;
+    color: ​#3d3d3d;
+    font-family: 'Roboto', sans-serif !important;
+    max-width:100%;
+    margin:0px;
+    padding:0px;
+   
+}
+
+.setimage {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0)0%, rgba(0, 0, 0, 0.06) 10%, rgba(0, 0, 0, 0.15) 22%,rgba(0, 0, 0, 0.72) 75%, rgba(0, 0, 0, 0.84) 89%, rgba(0, 0, 0, 0.91) 100%),url("../Images/banner2.jpg");
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+.navbar-brand {
+    max-height: 60px;
+    padding-left: 30px;
+}
+
+.nav-item {
+    font-size: 16px;
+    padding-left:70px;
+}
+
+
+.btn {
+    position: absolute;
+    right: 20px;
+    background: transparent;
+    color: white;
+    border-color: white;
+    width: 90px;
+    margin-top: 15px;
+}
+
+ul li a {
+    color: white;
+}
+
+.nav {
+    padding-top: 20px;
+    float: left;
+}
+
+hr {
+    border-top: 0.5px solid white;
+}
+#workheader {
+    font-size: 48px;
+    color: white;
+   
+    margin-top:30px;
+}
+.workparagraph {
+    font-size: 33px;
+    color: #19cee6;
+   
+}
+
+.video-box {
+   
+    color: white;
+    
+   
+}
+
+#button {
+    background-color: #e53b51;
+    border-radius: 10px;
+    width: 300px;
+    height:60px;
+    color: white;
+   border:none;
+  
+   margin-top:90px;
+  
+    font-size: 37px;
+   
+
+}
+
+.volunteerwork {
+    font-size: 54px;
+    text-align: center;
+    color: #00acc1;
+}
+
+.number {
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    background: #e53b51;
+    color: white;
+    padding-left: 30px;
+  
+    font-size: 104px;
+}
+
+.project {
+    font-size: 36px;
+    color: #e53b51;
+    padding-top: 33px;
+   margin-left:10px;
+   padding-left:30px;
+}
+
+.thumb1 {
+    height: 490px;
+    padding-top: 30px;
+}
+
+
+.thumb1paragraph {
+    font-size: 23px;
+    color: grey;
+   
+    padding-top: 11px;
+}
+.thumb1row {
+    color: #00acc1;
+    font-size: 23px;
+   
+}
+
+.thumb1space {
+    color: gray;
+    font-size: 23px;
+   
+}
+.thumb2row {
+    width: 37px;
+    height: 34px;
+    border-radius: 50%;
+    background: #00acc1;
+    color: white;
+    padding-left: 14px;
+    padding-top: 4px;
+    
+}
+.thumb2{
+    height:400px;
+}
+
+.thumb2space {
+    color: gray;
+    font-size: 23px;
+   
+}
+
+.thumb2row2 {
+    color: gray;
+    font-size: 18px;
+    margin-left:10px;
+   
+}
+.imagetwo {
+    background-color: #f2f2f2;
+    width: 626px;
+    margin-top: 30px;
+   
+    height: 150px;
+   
+    padding-top: 25px;
+}
+.thumb1paragraph2 {
+    font-size: 23px;
+    color: grey;
+   
+    padding-top: 11px;
+}
+
+.thumb3row {
+    width: 37px;
+    height: 34px;
+    border-radius: 50%;
+    background: #00acc1;
+    color: white;
+    padding-left: 14px;
+    padding-top: 4px;
+   
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.thumb3space {
+    color: gray;
+    font-size: 23px;
+   
+}
+
+.thumb3row2 {
+    color: #00acc1;
+    font-size: 18px;
+  
+    padding-top:20px;
+}
+.thumb4img {
+    height: 30px;
+    padding-bottom:10px;
+   
+}
+.thumb3{
+    height:500px;
+}
+
+.thumb4row2 {
+    color: #00acc1;
+    font-size: 18px;
+ 
+}
+.thumb4{
+    height:300px;
+   
+}
+
+.journey {
+    color: white;
+    font-size: 36px;
+    background: #e53b51;
+    border-radius: 7px;
+    padding:5px;
+ 
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    background-color: #444444;
+}
+
+.footerimg {
+    padding-left: 60px;
+    height: 60px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.faq {
+    position: absolute;
+    right: 0;
+    background: none;
+    border: none;
+    color: white;
+    padding-right: 120px;
+    margin-top:30px;
+}
+
+.contactus {
+    position: absolute;
+    right: 0;
+    background: none;
+    border: none;
+    color: white;
+    padding-right: 15px;
+    margin-top: 30px;
+}
+.thumbphone{
+    display:none;
+}
+.thumb3phone {
+    display: none;
+}
+.thumb2phone {
+    display: none;
+}
+ .projectphone {
+    display: none;
+}
+@media (max-width: 1199.98px) {
+   
+}
+@media (max-width: 991.98px) {
+    .setimage {
+        background-size:contain;
+        height:430px;
+    }
+    #workheader {
+        font-size: 38px;
+    }
+    .workparagraph {
+        font-size: 23px;  
+    }
+    #button {
+        width: 220px;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+    .video-box {
+        font-size: 25px;
+    }
+    .volunteerwork {
+        font-size: 44px;
+       
+    }
+    .thumbphone {
+        display: block;
+        width:270px;
+       
+    }
+    .thumb1{
+        display:none;
+    }
+    .number {
+        width: 90px;
+        height: 90px;
+        font-size: 64px;
+      
+    }
+    .project {
+        font-size: 26px;
+        margin-left: 40px;
+    }
+    .thumb1paragraph {
+        font-size: 18px;
+       
+        padding-top: 11px;
+        padding-left:30px;
+    }
+
+    .thumb1row {
+       padding-left:30px;
+        font-size: 18px;
+    }
+
+    .thumb1space {
+        padding-left: 40px;
+        font-size: 18px;
+    }
+    .thumb2row {
+        width: 27px;
+        height: 24px;
+      margin-left:30px;
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+    .thumb2space {
+       
+        font-size: 18px;
+        padding-left:30px;
+    }
+    .imagetwo {
+        
+        width: 426px;
+        margin-top: 30px;
+        height: 190px;
+      
+        padding:20px;
+    }
+    .thumb2{
+        display:block;
+        height:300px;
+    }
+    .thumb2phone {
+       display:none;
+    }
+    .thumb1paragraph2 {
+        font-size: 18px;
+        padding-left:30px;
+    }
+    .thumb3row {
+        width: 37px;
+        height: 34px;
+       margin-left:30px;
+        padding-left: 14px;
+        padding-top: 4px;
+    }
+
+    .thumb3space {
+      
+        margin-left: 40px;
+        font-size: 18px;
+    }
+
+    .thumb3row2 {
+      
+        padding-top: 20px;
+        padding-left:30px;
+    }
+    .thumb3 {
+        display: none;
+    }
+    .thumb3phone{
+        display:block;
+        width:290px;
+    }
+    .thumb4 {
+        height: 180px;
+    }
+    .thumb4img {
+        height: 30px;
+        padding-bottom: 10px;
+        padding-left:30px;
+    }
+    .projectphone {
+        display: none;
+    }
+   
+}
+@media (max-width: 767.98px) {
+  
+}
+@media (max-width: 575.98px) {
+    .setimage {
+        background-size: cover;
+       
+        background-position: center;
+    }
+    .navbar-brand {
+        max-height: 40px;
+        padding-left: 0px;
+    }
+    .nav-item {
+        font-size: 10px;
+        padding-left: 0px;
+        padding: 0px;
+    }
+    .btn {
+        margin-top: -77px;
+    }
+    #workheader {
+        font-size: 28px;
+        
+        margin-top: 0px;
+        text-align:center;
+    }
+
+    .workparagraph {
+        font-size: 18px;
+        text-align: center;
+    }
+    #button {
+        margin-top: 0px;
+        margin-left:40px;
+    }
+    .volunteerwork {
+        font-size: 24px;
+      
+    }
+    .number {
+        width: 50px;
+        height: 50px;
+        order:1;
+        padding-left: 15px;
+      
+        font-size: 40px;
+    }
+    .Inline {
+        display: -webkit-box;
+       
+    }
+    .project {
+        display: none;
+    }
+    .projectphone {
+        display: block;
+      padding-left:22px;
+        font-size: 17px;
+        color: #e53b51;
+       padding-top:10px;
+    }
+    .thumb1{
+        display:none;
+    }
+
+    .thumbphone {
+        height: 300px;
+        padding-top: 30px;
+        order:2;
+    }
+    .roworder{
+        order:3;
+    }
+    .imagetwo {
+      
+        width: 300px;
+        margin-top: 20px;
+        height: 300px;
+        padding-top: 25px;
+        
+    }
+    .thumb1row {
+        padding-left: 20px;
+        font-size: 18px;
+    }
+
+    .thumb1space {
+        padding-left: 0px;
+        font-size: 18px;
+    }
+    .thumb1paragraph {
+        font-size: 18px;
+        padding-left:22px;
+        padding-top: 11px;
+       
+    }
+    .thumb2{
+        display:none;
+    }
+    .thumb2phone{
+        display:block;
+        height:300px;
+        order:2;
+    }
+    .thumb3{
+        display:none;
+    }
+    .thumb3phone {
+        display: block;
+        width: 300px;
+        order:2
+    }
+    .thumb3row2 {
+      text-align:center;
+        padding-top: 20px;
+    }
+    .thumb1paragraph2 {
+       padding-right:10px;
+        padding-top: 11px;
+        padding-left:22px;
+    }
+  
+}
