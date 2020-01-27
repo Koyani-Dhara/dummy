@@ -1,0 +1,1070 @@
+<!--Home Html-->
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400&display=swap" rel="stylesheet" />
+    <script src="JS/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript"
+            src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+    </script>
+    <script src="JS/owl.carousel.min.js"></script>
+
+
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" />
+    <script src="JS/jquery-ui.js"></script>
+    <link href="CSS/jquery-ui.css" rel="stylesheet" />
+    <link href="CSS/owl.carousel.min.css" rel="stylesheet" />
+    <link href="CSS/owl.theme.default.min.css" rel="stylesheet" />
+   
+    <link href="CSS/dropkick.css" rel="stylesheet" />
+
+    <script src="JS/dropkick.js"></script>
+
+    <script src="JS/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#drop').dropkick({
+                moblie: true
+            });
+            $('#drop1').dropkick({
+                moblie: true
+            });
+            $('.one').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                mouseDrag: false,
+                nav:true,
+                navText: ['<img src="Images/arrow-toggle.png" />" ', '<img src="Images/arrow-toggle - rotate.png" />" '],
+                navClass:['owl-prev','owl-next'],
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true,
+                        loop: false
+                    },
+                    600: {
+                        items: 2,
+                        nav: false,
+                        loop: false
+                    },
+                    1000: {
+                        items: 4,
+                        nav: true,
+                        loop: false
+                        
+                    }
+                }
+            });
+            $('.two').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                mouseDrag: false,
+                navText: ['<img src="Images/arrow-toggle.png" />" ', '<img src="Images/arrow-toggle - rotate.png" />" '],
+                navClass: ['owl-prev', 'owl-next'],
+                responsive: {
+                    0: {
+                        items: 2,
+                        nav: true,
+                        loop: false
+                    },
+                    600: {
+                        items: 3,
+                        nav: false,
+                        loop: false
+                    },
+                    1000: {
+                        items: 6,
+                        nav: true,
+                        loop: false
+                    }
+                }
+            });
+            $('.three').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                mouseDrag: false,
+                navText: ['<img src="Images/arrow-toggle.png" />" ', '<img src="Images/arrow-toggle - rotate.png" />" '],
+                navClass: ['owl-prev', 'owl-next'],
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true,
+                        loop: false
+                    },
+                    600: {
+                        items: 3,
+                        nav: false,
+                        loop: false
+                    },
+                    1000: {
+                        items: 5,
+                        nav: true,
+                        loop: false
+                    }
+                }
+            });
+           
+
+        });
+
+
+    </script>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+</head>
+<body>
+    <div class="container setimage image-fluid">
+        <!-- Header -->
+        <nav class="navbar navbar-expand-sm">
+            <div class="navbar-header">
+                <img class="navbar-brand " src="Images/logo_1.png" />
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">HOW IT WORKS </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#">CONTACT US</a>
+                    </li>
+                    <li class="nav-item ">
+                        <button type="button" class="btn ">Login</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <hr />
+        <div class="headertext1">
+            <p>Discover Yourself,Discover the World</p>
+        </div>
+        <div class="headertext2">
+            <p>Apply to your perfect volunteer,intern, or teach abroad Program.</p>
+        </div>
+
+        <div class="flex-container form">
+            <div class="row">
+                <div class="col-md-3 col-xs-3">
+                    <div class="form-group">
+                        <label class="label">Type</label>
+                        <div class="form-control headeritem">
+                            <select id="drop">
+
+                                <option>Volunteer Abroad</option>
+
+                                <option>Volunteer Canada</option>
+
+                                <option>Volunteer Germany</option>
+
+                            </select>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-3">
+                    <div class="form-group">
+                        <label class="label">Location</label>
+
+                        <input type="text" class="form-control headeritem" placeholder="Anywhere" />
+
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-3">
+                    <div class="form-group">
+                        <label class="label">Activity</label>
+                        <div class="form-control headeritem">
+                            <select id="drop1">
+
+                                <option>Anything</option>
+
+                                <option>Volunteer Canada</option>
+
+                                <option>Volunteer Germany</option>
+
+                            </select>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-2 col-xs-3">
+                    <div class="form-group">
+
+                        <button class="item1">Search</button>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="flex-container formsmall">
+            <div class="row smallheader">
+                <span class="smallType">Type</span>
+                <span class="smalltext">Volunteer Abroad</span>
+
+            </div>
+            <div class="row smallheader">
+                <span class="smallType">Location</span>
+                <span class="smalltext">Anywhere</span>
+
+            </div>
+            <div class="row smallheader">
+                <span class="smallType">Activity</span>
+                <span class="smalltext">Anything</span>
+
+            </div>
+            <div class="row ">
+                <button type="button" class="smallbutton">Search</button>
+               
+
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="TrendingProjects">Trending Projects</p>
+            </div>
+        </div>
+        <div class="row first">
+            <div class="col-md-12">
+                <div class="owl-carousel owl-theme one">
+
+                    <div class="item ">
+                        <div class="pickgradient">
+                            <img class="testimg" src="Images/thumb01.jpg" />
+                        </div>
+                        <div class="block">
+                            <button class="text">Costa Rica</button>
+                            <p class="text1">MEDICAL SUPPORT IN QAPOS</p>
+                            <p class="text2">Global Volunteering International</p>
+                            <p class="text3">12 People Researching this project</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="item ">
+                        <div class="pickgradient">
+                            <img class="testimg" src="Images/thumb02.jpg" />
+                        </div>
+                        <div class="block">
+                            <button class="text">Peru</button>
+                            <p class="text1">VOLUNTEERING</p>
+                            <p class="text2">Global Volunteering International</p>
+                            <p class="text3">12 People Researching this project</p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="item">
+
+                        <div class="pickgradient">
+                            <img class="testimg" src="Images/thumb03.jpg" />
+                        </div>
+                        <div class="block">
+                            <button class="text">Costa Rica</button>
+                            <p class="text1">TEACH ENGLISH ABROAD</p>
+                            <p class="text2">Global Volunteering International</p>
+                            <p class="text3">12 People Researching this project</p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="item">
+
+                        <div class="pickgradient">
+                            <img class="testimg" src="Images/thumb04.jpg" />
+                        </div>
+                        <div class="block">
+                            <button class="text">Costa Rica</button>
+                            <p class="text1">DENTAL CARE ABROAD</p>
+                            <p class="text2">Global Volunteering International</p>
+                            <p class="text3">12 People Researching this project</p>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class=" pickgradient">
+                            <img class="testimg" src="Images/thumb05.jpg" />
+                        </div>
+                        <div class="block">
+                            <button class="text">Costa Rica</button>
+                            <p class="text1">MEDICAL SUPPORT IN QAPOS</p>
+                            <p class="text2">Global Volunteering International</p>
+                            <p class="text3">12 People Researching this project</p>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class=" pickgradient">
+                            <img class="testimg" src="Images/thumb06.jpg" />
+                        </div>
+                        <div class="block">
+                            <button class="text">Costa Rica</button>
+                            <p class="text1">MEDICAL SUPPORT IN QAPOS</p>
+                            <p class="text2">Global Volunteering International</p>
+                            <p class="text3">12 People Researching this project</p>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class=" pickgradient">
+                            <img class="testimg" src="Images/thumb07.jpg" />
+                        </div>
+                        <div class="block">
+                            <button class="text">Costa Rica</button>
+                            <p class="text1">MEDICAL SUPPORT IN QAPOS</p>
+                            <p class="text2">Global Volunteering International</p>
+                            <p class="text3">12 People Researching this project</p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="TrendingProjects">Future Destinations</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="owl-carousel owl-theme two">
+
+                    <div class="item ">
+                        <div class="pickgradient">
+                            <img class="testimgtwo" src="Images/thumb10.jpg" />
+                        </div>
+                        <div class="block">
+                            <p class="text4">37 Projects in</p>
+                            <p class="text1">KENYA</p>
+
+
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="item ">
+                        <div class="pickgradient">
+                            <img class="testimgtwo " src="Images/thumb11.jpg" />
+                        </div>
+                        <div class="block">
+                            <p class="text4">37 Projects in</p>
+                            <p class="text1">TURKMENISTAN</p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="item">
+
+                        <div class="pickgradient">
+                            <img class="testimgtwo" src="Images/thumb12.jpg" />
+                        </div>
+                        <div class="block">
+                            <p class="text4">37 Projects in</p>
+                            <p class="text1">SOUTH AFRICA </p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="item">
+
+                        <div class="pickgradient">
+                            <img class="testimgtwo" src="Images/thumb13.jpg" />
+                        </div>
+                        <div class="block">
+                            <p class="text4">37 Projects in</p>
+                            <p class="text1">BOLIVIA</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class=" pickgradient">
+                            <img class="testimgtwo" src="Images/thumb14.jpg" />
+                        </div>
+                        <div class="block">
+                            <p class="text4">37 Projects in</p>
+                            <p class="text1">AFRICA</p>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class=" pickgradient">
+                            <img class="testimgtwo" src="Images/thumb15.jpg" />
+                        </div>
+                        <div class="block">
+                            <p class="text4">37 Projects in</p>
+                            <p class="text1">INDIA</p>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class=" pickgradient">
+                            <img class="testimgtwo" src="Images/thumb16.jpg" />
+                        </div>
+                        <div class="block">
+                            <p class="text4">37 Projects in</p>
+                            <p class="text1">INDIA</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid first">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="TrendingProjects">Most Affordable Projects</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="owl-carousel owl-theme three">
+
+                    <div class="item ">
+                        <div class="pickgradient">
+                            <img class="testimg" src="Images/thumb16.jpg" />
+                        </div>
+                        <div class="block">
+
+                            <p class="textthree">Starting at</p>
+                            <button class="buttonthree"><b>$299/week</b></button>
+                            <p class="textfour">for 4 Weeks</p>
+                            <p class="textfive">Surf School for Children</p>
+
+                        </div>
+                        <div>
+                            <span class="textbottom">South Africa</span>
+                            <p class="text2" style="margin-left:20px;">Global Volunteering International</p>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="item ">
+                        <div class="pickgradient">
+                            <img class="testimg" src="Images/thumb17.jpg" />
+                        </div>
+                        <div class="block">
+                            <p class="textthree">Starting at</p>
+                            <button class="buttonthree"><b>$299/week</b></button>
+                            <p class="textfour">for 4 Weeks</p>
+                            <p class="textfive">Animal Care</p>
+                        </div>
+
+                        <div>
+                            <span class="textbottom">Costa Rica</span>
+                            <p class="text2" style="margin-left:20px;">Global Volunteering International</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="item">
+
+                        <div class="pickgradient">
+                            <img class="testimg" src="Images/thumb18.jpg" />
+                        </div>
+                        <div class="block">
+                            <p class="textthree">Starting at</p>
+                            <button class="buttonthree"><b>$299/week</b></button>
+                            <p class="textfour">for 4 Weeks</p>
+                            <p class="textfive">Medical Support in Qapos</p>
+
+                        </div>
+                        <div>
+                            <span class="textbottom">Peru</span>
+                            <p class="text2" style="margin-left:20px;">Global Volunteering International</p>
+                        </div>
+                    </div>
+
+
+                    <div class="item">
+
+                        <div class="pickgradient">
+                            <img class="testimg" src="Images/thumb19.jpg" />
+                        </div>
+                        <div class="block">
+                            <p class="textthree">Starting at</p>
+                            <button class="buttonthree"><b>$299/week</b></button>
+                            <p class="textfour">for 4 Weeks</p>
+                            <p class="textfive">Teach English & French</p>
+
+                        </div>
+                        <div>
+                            <span class="textbottom">Kenya</span>
+                            <p class="text2" style="margin-left:20px;">Global Volunteering International</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class=" pickgradient">
+                            <img class="testimg" src="Images/thumb20.jpg" />
+                        </div>
+                        <div class="block">
+                            <p class="textthree">Starting at</p>
+                            <button class="buttonthree"><b>$299/week</b></button>
+                            <p class="textfour">for 4 Weeks</p>
+                            <p class="textfive">Build Houses Abroad</p>
+
+                        </div>
+
+                        <div>
+                            <span class="textbottom">South Africa</span>
+                            <p class="text2" style="margin-left:20px;">Global Volunteering International</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class=" pickgradient">
+                            <img class="testimg" src="Images/thumb06.jpg" />
+                        </div>
+                        <div class="block">
+                            <p class="textthree">Starting at</p>
+                            <button class="buttonthree"><b>$299/week</b></button>
+                            <p class="textfour">for 4 Weeks</p>
+                            <p class="textfive">Surf School for Children</p>
+                        </div>
+                        <div>
+                            <span class="textbottom">South Africa</span>
+                            <p class="text2" style="margin-left:20px;">Global Volunteering International</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class=" pickgradient">
+                            <img class="testimg" src="Images/thumb07.jpg" />
+                        </div>
+                        <div class="block">
+                            <p class="textthree">Starting at</p>
+                            <button class="buttonthree"><b>$299/week</b></button>
+                            <p class="textfour">for 4 Weeks</p>
+                            <p class="textfive">Surf School for Children</p>
+
+                        </div>
+                        <div>
+                            <span class="textbottom">South Africa</span>
+                            <p class="text2" style="margin-left:20px;">Global Volunteering International</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+
+    <!-- Footer Start-->
+    <div class="footer">
+        <div class="row">
+            <div class="col-xs-3 ">
+
+                <img src="Images/logo_1.png" class="footerimg" />
+            </div>
+            <div class="col-xs-9">
+                <button class="faq">FAQ</button>
+                <button class="contactus">CONTACT US</button>
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer End-->
+</body>
+</html>
+
+<!--Home CSS-->
+body {
+    font-size: 14px;
+    color: ​#3d3d3d;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.setimage {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0)0%, rgba(0, 0, 0, 0.06) 10%, rgba(0, 0, 0, 0.15) 22%,rgba(0, 0, 0, 0.72) 75%, rgba(0, 0, 0, 0.84) 89%, rgba(0, 0, 0, 0.91) 100%),url("../Images/banner-img1.jpg");
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+.navbar-brand {
+    max-height: 60px;
+    padding-left: 30px;
+}
+
+.nav-item {
+    font-size: 16px;
+}
+
+
+.btn {
+    position: absolute;
+    right: 20px;
+    background: transparent;
+    color: white;
+    border-color: white;
+    width: 90px;
+    margin-top: 15px;
+}
+
+ul li a {
+    color: white;
+}
+
+.nav {
+    padding-top: 20px;
+    float: left;
+}
+
+hr {
+    border-top: 0.5px solid white;
+}
+
+.headertext1 {
+    color: white;
+    text-align: center;
+    padding-top: 140px;
+    font-size: 48px;
+}
+
+.headertext2 {
+    color: #00acc1;
+    text-align: center;
+    font-size: 33px;
+}
+.flex-container {
+    display: flex;
+    justify-content:center;
+    
+}
+.headeritem{
+  color:white;
+  background:transparent;
+  width:270px;
+  height:50px;
+  text-align:center;
+  
+  font-size:21px;
+}
+#drop {
+    background-color: transparent;
+}
+.dk-selected {
+    background: none;
+    border: none;
+    overflow: visible;
+
+}
+
+.form-control {
+    border-radius: 0px;
+}
+.dk-selected:after{
+    border:none;
+    
+}
+
+
+.label {
+    color: white;
+    font-size: 15px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.item1 {
+    color: white;
+    background-color: #e53b51;
+    margin-top: 30px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    font-size: 21px;
+    border: 1px solid white;
+    margin-top: 50px;
+}
+.TrendingProjects {
+    font-size: 36px;
+    color: #00acc1;
+    margin-top:20px;
+}
+
+
+.first {
+    position: relative;
+}
+.one {
+    position: relative;
+}
+.two {
+    position: relative;
+   
+}
+.three {
+    position: relative;
+}
+.block {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text {
+    background-color: white;
+    color: #e53b51;
+    border:none;
+    font-size:13.5px;
+    border-radius:0.1cm;
+   
+}
+.text1 {
+    margin-bottom: 5px;
+   
+    font-size: 21px;
+}
+.text2 {
+    margin-bottom:10px;
+    color: #00acc1;
+    font-size: 15px;
+   
+}
+.text3 {
+    margin-bottom:10px;
+    font-size: 13.5px;
+}
+.text4 {
+    color: #e53b51;
+   
+}
+.formsmall{
+    display:none;
+}
+.form {
+    display: flex;
+}
+
+
+.pickgradient {
+    
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0)0%, rgba(0, 0, 0, 0.06) 10%, rgba(0, 0, 0, 0.15) 22%,rgba(0, 0, 0, 0.72) 75%, rgba(0, 0, 0, 0.84) 89%, rgba(0, 0, 0, 0.91) 100%);
+}
+
+.testimg {
+    position: relative;
+    z-index: -1;
+    display: block;
+    height: 400px;
+    width: auto;
+   
+}
+.item:hover {
+    filter: grayscale(100%);
+    transition:1s;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.testimgtwo {
+    position: relative;
+    z-index: -1;
+    display: block;
+    height: 350px;
+    width: auto;
+}
+.textthree {
+    font-size: 15px;
+}
+.buttonthree {
+    background-color: white;
+    color: #e53b51;
+    border: none;
+    font-size: 27px;
+    border-radius: 0.1cm;
+}
+.textfour {
+    font-size: 15px;
+}   
+.textfive {
+    font-size: 18px;
+    padding-bottom:35px;
+   
+}
+.owl-prev{
+  
+   bottom:200px;
+   left:0px;
+    position:absolute;
+}
+.owl-next {
+    bottom: 200px;
+    right: 0px;
+    position: absolute;
+}
+.owl-dots {
+    display: none;
+}
+.owl-theme .owl-nav .disabled{
+   opacity:0;
+}
+.textbottom {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #e53b51;
+    font-size: 13.5px;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    background-color: #444444;
+}
+
+.footerimg {
+    padding-left: 60px;
+    height: 60px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.faq {
+    position: absolute;
+    right: 0;
+    background: none;
+    border: none;
+    color: white;
+    padding-right: 120px;
+    margin-top:30px;
+}
+
+.contactus {
+    position: absolute;
+    right: 0;
+    background: none;
+    border: none;
+    color: white;
+    padding-right: 15px;
+    margin-top: 30px;
+}
+.smallType {
+    color: #e53b51;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.smalltext {
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 17px;
+}
+
+.smallheader {
+    background-color: white;
+    border-radius: 0.2cm;
+    margin: 10px;
+    
+    height: 40px;
+    width: 270px;
+}
+
+.smallbutton {
+    background-color: #e53b51;
+    border-radius: 0.2cm;
+    color: white;
+    height: 40px;
+    width: 270px;
+    margin-left: 25px;
+    border: none;
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .setimage {
+        background-size: contain;
+        height: 400px;
+    }
+    .formsmall{
+        display:none;
+    }
+    .form {
+        display: flex;
+    }
+
+    .headertext1 {
+        padding-bottom: 0px;
+        padding-top: 50px;
+        font-size: 20px;
+    }
+
+    .headertext2 {
+        font-size: 20px;
+    }
+
+
+    .label {
+        margin-left: 60px;
+    }
+
+    .item1 {
+        margin-top: 30px;
+        height: 40px;
+        width: 160px;
+        margin-top: 50px;
+    }
+
+    .headeritem {
+        width: 193px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .dk-select, .dk-select-multi {
+        width: 150px;
+    }
+
+    .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+        display:inline-block;
+    }
+    .textfive {
+        font-size: 14px;
+        
+    }
+    .buttonthree {
+       
+        font-size: 20px;
+       
+    }
+    
+}
+@media only screen and (min-width: 375px) and (max-width: 811px) {
+    .form {
+        display: none;
+    }
+
+    .formsmall {
+        display: block;
+      
+        justify-content: center;
+    }
+
+    .setimage {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .headertext1 {
+        padding-bottom: 0px;
+        padding-top: 0px;
+        font-size: 20px;
+    }
+
+    .headertext2 {
+        font-size: 18px;
+    }
+
+    .navbar-brand {
+        max-height: 40px;
+        padding-left: 0px;
+    }
+   
+
+}
+@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
+
+    .form {
+        display: none;
+    }
+
+    .formsmall {
+        display: block;
+       justify-content:center;
+    }
+
+    .setimage {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .headertext1 {
+        padding-bottom: 0px;
+        padding-top: 0px;
+        font-size: 20px;
+    }
+
+    .headertext2 {
+        font-size: 18px;
+    }
+
+    .navbar-brand {
+        max-height: 40px;
+        padding-left: 0px;
+    }
+   
+   
+}
+    @media screen and (max-width: 360px) {
+        .form {
+            display: none;
+        }
+        .btn {
+            margin-top: -77px;
+        }
+   
+
+        .formsmall {
+            
+            display: block;
+            justify-content: center;
+        }
+
+        .setimage {
+            background-size: cover;
+            background-position: center;
+        }
+
+        .headertext1 {
+            padding-bottom: 0px;
+            padding-top: 0px;
+            font-size: 20px;
+        }
+
+        .headertext2 {
+            font-size: 18px;
+        }
+
+        .navbar-brand {
+            max-height: 40px;
+            padding-left: 0px;
+        }
+
+       
+}
